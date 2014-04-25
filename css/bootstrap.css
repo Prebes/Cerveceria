@@ -18,6 +18,9 @@ body {
 #cabezera{
   text-align: center;
 }
+.redesSociales a{
+  padding: 30px;
+}
 
 article,
 aside,
