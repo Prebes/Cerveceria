@@ -5820,4 +5820,12 @@ button.close {
 }
 .tetzto{
   background-image: url("../cerveza.jpg");
+  font-size: 150%;
+  text-align: center;
+}
+
+.img1{
+  width: 1000px;
+  height: 100px;
+  float: left;
 }
