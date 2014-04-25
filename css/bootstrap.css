@@ -56,6 +56,9 @@ a:hover {
   outline: 0;
 }
 
+.contacto h4{
+  text-align: left;
+}
 
 .menu{
   position: fixed;
