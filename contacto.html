@@ -34,20 +34,38 @@
 		<div class="row">
 			<h1><span class="label label-danger">Contactanos</span></h1>
 		</div>
-		<div class="row">
-			<form action="" >
-				<label >Datos de Cliente:</label>
-				<div class="input-group">
+		<div class="row formulario">
+				<label class="formLa">Datos de Cliente:</label>
+				<div class="input-group itemForm">
 					<span class="input-group-addon">@</span>
   					<input type="text" class="form-control" placeholder="Correo">
 				</div>
-				<div class="input-group">
+				<div class="input-group itemForm">
 					<span class="input-group-addon">Nombre:</span>
   					<input type="text" class="form-control" placeholder="...">
   				</div>
 
-  				
-			</form>
+				<div class="input-group itemForm">
+					<span class="input-group-addon">Telefono:</span>
+  					<input type="text" class="form-control" placeholder="xx-xx-xx-xx">
+  				</div>
+				
+  				<div class="btn-group itemForm">
+				  <button type="button" class="btn btn-danger">Producto</button>
+				  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+				    <span class="caret"></span>
+				    <span class="sr-only">Toggle Dropdown</span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu">
+				    <li><a href="#">Action</a></li>
+				    <li><a href="#">Another action</a></li>
+				    <li><a href="#">Something else here</a></li>
+				    <li class="divider"></li>
+				    <li><a href="#">Separated link</a></li>
+				  </ul>
+				</div><br><br>
+				<label >Comentarios:</label><br><br>
+				<textarea col="30" row="10" placeholder="Escribe..." class="itemForm"></textarea>
 		</div>
 	</section>
 

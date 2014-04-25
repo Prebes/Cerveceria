@@ -24,6 +24,22 @@ body {
 .cuerpoContac h1{
   padding-left: 60px;
 }
+.cuerpoContac{
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+}
+.formulario{
+  padding: 30px;
+}
+.itemForm{
+  padding-top: 30px;
+}
+.formulario textarea{
+  padding-left: auto;
+  padding-right: auto;
+  width: 600px;
+  height: 150px;
+}
 
 article,
 aside,
